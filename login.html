@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<div id="box" >
+    <h1>LOGIN PAGE</h1>
+    <input type="text" name="input1" id="inp1" placeholder="Enter email address" required onkeyup="validate()">
+    <span id="email"></span>
+    <input type="text" name="input2" id="inp2" placeholder="Enter password" required>
+    <input type="text" name="input3" id="inp3" placeholder="Confrim your password"required>
+    <p id="confirm"></p>
+    <button type="submit" onclick="check()">SUBMIT</button>
+</div>
+<body>
+    <script src="./login.js"></script>
+</body>
+</html>
